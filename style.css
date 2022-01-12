@@ -1,0 +1,24 @@
+.feild{
+    width: 100%;
+    
+    border: solid 2px;}
+
+.feild:hover .bat{
+    transform:rotate(-60deg);
+    transform-origin: top right;
+}
+.bat{
+    transition: transform 0.2s ease-in;
+}
+.ball{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: red;
+    position: relative ;
+   left: 875px;
+   transition: transform 1s ease-out 0.2s ;
+}
+.feild:hover .ball{
+    transform: translate(800px,-100px);
+}
