@@ -1,7 +1,10 @@
 .feild{
-    width: 100%;
+   
     
     border: solid 2px;}
+    .feild img {
+        height: 400px;
+    }
 
 .feild:hover .bat{
     transform:rotate(-60deg);
@@ -16,9 +19,9 @@
     border-radius: 25px;
     background-color: red;
     position: relative ;
-   left: 875px;
+   left: 550px;
    transition: transform 1s ease-out 0.2s ;
 }
 .feild:hover .ball{
-    transform: translate(800px,-100px);
+    transform: translate(700px,-100px);
 }
